@@ -8,8 +8,7 @@ import './style/header.scss'
 const Header = ({ siteTitle }) => (
     <header
         style={{
-            background: `rebeccapurple`,
-            marginBottom: `1.45rem`,
+            color: `#fff`,
         }}
     >
         <Navbar collapseOnSelect expand="lg" className="navbar-container">
@@ -22,7 +21,7 @@ const Header = ({ siteTitle }) => (
                         textDecoration: `none`,
                     }}
                 >
-                    {siteTitle}
+                    <img src="/images/reactjstalk-logo.png" width="150" alt={siteTitle} />
                 </Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />

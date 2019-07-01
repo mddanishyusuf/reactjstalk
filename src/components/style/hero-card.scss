@@ -1,0 +1,75 @@
+.hearo-card {
+    background-color: #000000;
+    padding: 80px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    .h-card-meta {
+        align-self: center;
+        padding: 0px 40px;
+        .h-card-title {
+            font-weight: 700;
+            font-size: 2rem;
+            line-height: 2.4rem;
+        }
+        p {
+            font-size: 16px;
+        }
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            li {
+                display: inline-block;
+                padding-right: 10px;
+                padding-bottom: 3px;
+                font-size: 12px;
+                color: #707070;
+                img {
+                    width: 25px;
+                }
+                span {
+                    padding-right: 10px;
+                    a {
+                        color: #707070;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .h-card-media {
+        align-self: center;
+        .h-video-player {
+            .h-video-inner {
+                padding: 0px 40px;
+                .h-video-thumbnail {
+                    background-size: contain;
+                    height: 280px;
+                    background-repeat: no-repeat;
+                    border: 4px solid rgba(255, 255, 255, 0.3);
+                    .video-overlay {
+                        padding: 5px;
+                        height: 100%;
+                        background-color: transparent;
+                        .video-overla-color {
+                            height: 100%;
+                            background-color: rgba(255, 255, 255, 0.3);;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            img {
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
+
