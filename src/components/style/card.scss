@@ -1,11 +1,42 @@
 .card-box {
     .card-container {
         .card-inner {
+            background-color: #000000;
+            margin-bottom: 30px;
             .image {
-                height: 200px;
+                height: 180px;
                 background-position: center;
-                background-size: contain;
+                background-size: cover;
                 background-repeat: no-repeat;
+                border: 2px solid rgba(255, 255, 255, 0.3);
+                .overlay-inner {
+
+                    border: 2px solid #000000;
+                    height: 100%;
+                    background-color: rgba(255, 255, 255, 0.3);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            .meta-data {
+                padding: 10px 20px;
+                text-decoration: none;
+                .title {
+                    font-size: 14px;
+                }
+                .event-logo {
+                    margin-top:10px;
+                    font-size: 12px;
+                    color: #707070;
+                    align-items: center;
+                    display: flex;
+                    img {
+                        width: 20px;
+                        border-radius: 50%;
+                        margin-right: 10px;
+                    }
+                }
             }
         }
     }

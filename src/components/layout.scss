@@ -4,3 +4,32 @@ body {
     color: #fff !important;
     overflow-x: hidden;
 }
+
+.container-cards {
+    padding: 80px;
+
+    a {
+        text-decoration: none !important;
+        color: #fff;
+        &:hover {
+            color: #fff;
+        }
+    }
+    @media screen and (max-width: 700px) {
+        padding: 10px;
+    }
+
+    @media screen and (max-width: 900px) {
+        padding: 30px;
+    }
+}
+
+.hero-section {
+    a {
+        text-decoration: none !important;
+        color: #fff;
+        &:hover {
+            color: #fff;
+        }
+    }
+}

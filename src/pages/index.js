@@ -3,7 +3,6 @@ import { Link, graphql } from 'gatsby'
 import { Row, Col } from 'react-bootstrap'
 
 import Layout from '../components/layout'
-import Image from '../components/image'
 import SEO from '../components/seo'
 
 import HeroCard from '../components/heroCard'
@@ -11,17 +10,32 @@ import Card from '../components/card'
 
 function IndexPage({ data }) {
     const talksArray = data.talks.nodes
+    const firstObj = talksArray[0]
+    const restObjs = talksArray.slice(1)
     // console.log(talksArray.)
     return (
         <Layout>
             <SEO title="Home" />
-            <Row>
-                {talksArray.map((talkObj, key) => (
-                    <Col xs="12" sm={key === 0 ? 12 : 6} md={key === 0 ? 12 : 4} key={talkObj._id}>
-                        {key === 0 ? <HeroCard item={talkObj} /> : <Card item={talkObj} />}
+            <div className="hero-section">
+                <Row>
+                    <Col xs="12" sm="12" md="12">
+                        <Link to={`/play/${firstObj._id}`}>
+                            <HeroCard item={firstObj} />
+                        </Link>
                     </Col>
-                ))}
-            </Row>
+                </Row>
+            </div>
+            <div className="container-cards">
+                <Row>
+                    {restObjs.map((talkObj, key) => (
+                        <Col xs="12" sm="6" md="4" key={talkObj._id}>
+                            <Link to={`/play/${talkObj._id}`}>
+                                <Card item={talkObj} />
+                            </Link>
+                        </Col>
+                    ))}
+                </Row>
+            </div>
         </Layout>
     )
 }

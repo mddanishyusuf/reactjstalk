@@ -10,7 +10,7 @@ function HeroCard({ item }) {
                 <Col xs="12" sm="12" md="6" className="h-card-meta">
                     <div className="h-card-title">{item.title}</div>
                     <p>{item.summary}</p>
-                    <ul>
+                    <ul className="event-info">
                         <li>
                             <img src={item.event_logo} /> {item.event_name}
                         </li>
@@ -39,7 +39,7 @@ function HeroCard({ item }) {
                             <div className="h-video-thumbnail" style={{ backgroundImage: `url(${item.thumbnail})` }}>
                                 <div className="video-overlay">
                                     <div className="video-overla-color">
-                                        <img src="/images/play-btn.png" width="60" />
+                                        <img src="/images/play-btn.png" alt="play button" width="60" />
                                     </div>
                                 </div>
                             </div>

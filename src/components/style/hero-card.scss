@@ -1,20 +1,36 @@
 .hearo-card {
     background-color: #000000;
-    padding: 80px;
+    padding: 60px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 
+
+    @media screen and (max-width: 700px) {
+        padding: 10px;
+    }
+
+    @media screen and (max-width: 900px) {
+        padding: 30px;
+    }
+
     .h-card-meta {
         align-self: center;
-        padding: 0px 40px;
         .h-card-title {
             font-weight: 700;
             font-size: 2rem;
             line-height: 2.4rem;
+
+            @media screen and (max-width: 900px) {
+                font-size: 1.5rem;
+                line-height: 2rem;
+            }
         }
         p {
             font-size: 16px;
+            @media screen and (max-width: 900px) {
+                font-size: 14px;
+            }
         }
         ul {
             padding: 0;
@@ -44,7 +60,7 @@
         align-self: center;
         .h-video-player {
             .h-video-inner {
-                padding: 0px 40px;
+                padding: 20px 0px;
                 .h-video-thumbnail {
                     background-size: contain;
                     height: 280px;
@@ -56,7 +72,7 @@
                         background-color: transparent;
                         .video-overla-color {
                             height: 100%;
-                            background-color: rgba(255, 255, 255, 0.3);;
+                            background-color: rgba(255, 255, 255, 0.3);
                             display: flex;
                             justify-content: center;
                             align-items: center;
