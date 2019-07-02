@@ -13,6 +13,8 @@
       "summary": "The first three talks from React Conf 2018 by Sophie Alpert, Dan Abramov, and Ryan Florence.",
       "title": "React Today and Tomorrow and 90% Cleaner React With Hooks",
       "thumbnail": "https://i.ytimg.com/vi/dpw9EHDh2bM/maxresdefault.jpg",
+      "event_location": "Henderson, Nevada",
+      "featured": 1,
       "speakers": [
         {
           "name": "Sophie Alpert",
@@ -43,9 +45,11 @@
       "event_name": "Codegram Technologies",
       "event_date": "2014-05-01T18:59:33+05:30",
       "domain_name": "https://www.youtube.com",
+      "event_location": "Barcelona",
       "summary": "This is a talk from Barcelona FutureJS 2014 (http://futurejs.org).\n\nIn this talk I'll be discussing why we built a virtual DOM, how it compares to other systems, and its relevance to the future of browser technologies.",
       "title": "Pete Hunt - The Secrets of React's Virtual DOM (FutureJS 2014)",
       "thumbnail": "https://i.ytimg.com/vi/-DX3vJiqxm4/maxresdefault.jpg",
+      "featured": 0,
       "speakers": [
         {
           "name": "Pete Hunt",
@@ -68,9 +72,11 @@
       "event_name": "JSConf",
       "event_date": "2014-05-27T18:55:10+05:30",
       "domain_name": "https://www.youtube.com",
+      "event_location": "Berlin, Germany",
       "summary": "We've talked a lot about big concepts such as the Virtual DOM, re-rendering the entire app on every update with a diff algorithm, server-side rendering.\n\nBut there's another side to it: all the design decisions that make React work for large projects.",
       "title": "Christopher Chedeau: Why does React Scale?",
       "thumbnail": "https://i.ytimg.com/vi/D-ioDiacTm8/maxresdefault.jpg",
+      "featured": 0,
       "speakers": [
         {
           "name": "Christopher Chedeau",
@@ -93,9 +99,11 @@
       "event_name": "JSConf",
       "event_date": "2019-06-15T18:49:03+05:30",
       "domain_name": "https://www.youtube.com",
-      "summary": "Published on Jun 28, 2019Surprised of too many things went wrong in your UI components?\n🤔Ever felt that freeing your components from bugs is a never-ending endeavor?\n😏Join Zains journey in solving those kinds of issues using State Machines and see how they go in action with React Hooks.\n\nZain is an Indonesian developer working at Ninja Van as a Senior Software Engineer to help reshape its user-facing products to be more reliable and user-friendly.\n\nHis passion for JavaScript drove him to spend his spare time learning it to switch from Backend Development to Frontend Development.",
-      "title": "State Machines Meet React Hooks - Zain Fathoni | JSConf.Asia 2019",
+      "event_location": "Singapore",
+      "title": "State Machines Meet React Hooks - Zain Fathoni",
+      "summary": "Surprised of too many things went wrong in your UI components? and Ever felt that freeing your components from bugs is a never-ending endeavor? Join Zains journey in solving those kinds of issues using State Machines.",
       "thumbnail": "https://i.ytimg.com/vi/ioh7aqrBcs0/maxresdefault.jpg",
+      "featured": 0,
       "speakers": [
         {
           "name": "Zain Fathoni",
@@ -117,9 +125,11 @@
       "event_name": "ReactEurope",
       "event_date": "2015-07-02T18:46:09+05:30",
       "domain_name": "https://www.youtube.com",
-      "summary": "Published on Jul 5, 2015React’s unique strength is bringing to JavaScript development some of the benefits previously exclusive to more radically functional languages such as Elm and ClojureScript, without forcing you to completely eschew local state or rewrite code with exclusively immutable data structures.\nIn this talk, Dan will demonstrate how React can be used together with Webpack Hot Module Replacement to create a live editing environment with time travel that supercharges your debugging experience and transforms the way you work on real apps every day.",
+      "event_location": "PARIS, FRANCE",
+      "summary": "React’s unique strength is bringing to JavaScript development some of the benefits previously exclusive to more radically functional languages such as Elm and ClojureScript, without forcing you to completely eschew local state or rewrite code with exclusively immutable data structures.\nIn this talk, Dan will demonstrate how React can be used together with Webpack Hot Module Replacement to create a live editing environment with time travel that supercharges your debugging experience and transforms the way you work on real apps every day.",
       "title": "Dan Abramov - Live React: Hot Reloading with Time Travel at react-europe 2015",
       "thumbnail": "https://i.ytimg.com/vi/xsSnOQynTHs/maxresdefault.jpg",
+      "featured": 0,
       "speakers": [
         {
           "name": "Dan Abramov",
@@ -139,9 +149,11 @@
       "event_name": "ReactRally",
       "event_date": "2018-03-28T18:43:56+05:30",
       "domain_name": "https://www.youtube.com",
+      "event_location": "Salt Lake City, Utah",
       "summary": "It's amazing how React allows you to build scalable and maintainable UI, adapt for requirement changes and stay DRY.",
       "title": "Kent C Dodds - Simply React",
       "thumbnail": "https://i.ytimg.com/vi/AiJ8tRRH0f8/maxresdefault.jpg",
+      "featured": 0,
       "speakers": [
         {
           "name": "Kent C. Dodds",
@@ -162,9 +174,11 @@
       "event_name": "OK GROW!",
       "event_date": "2018-02-22T18:36:49+05:30",
       "domain_name": "https://www.youtube.com",
+      "event_location": "SAN ANTONIO,TX",
       "summary": "Automated tests are an important part of raising your confidence when releasing software.\nThey can speed you up or slow you down depending on how you write them and which form of testing you focus your test writing on.\n\nIn this talk, we’ll cover the value of automated testing and where your efforts should be focused to strike the best balance of confidence and effort.",
       "title": "Kent C. Dodds – Write tests. Not too many. Mostly integration.",
       "thumbnail": "https://i.ytimg.com/vi/Fha2bVoC8SE/maxresdefault.jpg",
+      "featured": 0,
       "speakers": [
         {
           "name": "Kent C. Dodds",
@@ -184,9 +198,11 @@
       "event_name": "JSConf",
       "event_date": "2018-03-01T18:32:27+05:30",
       "domain_name": "https://www.youtube.com",
+      "event_location": "Reykjavik, Iceland",
       "summary": "React 16 was released several months ago. Even though this update was largely API-compatible, the rewritten internal engine included new long-requested features and opened the door for exciting future possibilities.\n\nIn this talk, Dan will share the React team’s vision for what the future of React might look like, including some never before seen prototypes.\n\nWhether or not you use React, Dan hopes that you will find something valuable in this talk and that it sparks new conversations about building delightful user interfaces.",
       "title": "Dan Abramov: Beyond React 16 | JSConf Iceland 2018",
       "thumbnail": "https://i.ytimg.com/vi/nLF0n9SACd4/maxresdefault.jpg",
+      "featured": 0,
       "speakers": [
         {
           "name": "Dan Abramov",

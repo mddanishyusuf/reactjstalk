@@ -34,11 +34,14 @@ const Layout = ({ children }) => {
                 }}
             >
                 <main>{children}</main>
-                {/* <footer>
-                    © {new Date().getFullYear()}, Built with
-                    {` `}
-                    <a href="https://www.gatsbyjs.org">Gatsby</a>
-                </footer> */}
+                <footer>
+                    <div className="made-by">
+                        <a href="https://twitter.com/mddanishyusuf" target="_blank" rel="noopener noreferrer">
+                            @mddanishyusuf
+                        </a>{' '}
+                        - made with GatsbyJs
+                    </div>
+                </footer>
             </div>
         </>
     )

@@ -10,8 +10,7 @@ import Card from '../components/card'
 
 function IndexPage({ data }) {
     const talksArray = data.talks.nodes
-    const firstObj = talksArray[0]
-    const restObjs = talksArray.slice(1)
+    const featured = data.featured.nodes[0]
     // console.log(talksArray.)
     return (
         <Layout>
@@ -19,15 +18,13 @@ function IndexPage({ data }) {
             <div className="hero-section">
                 <Row>
                     <Col xs="12" sm="12" md="12">
-                        <Link to={`/play/${firstObj._id}`}>
-                            <HeroCard item={firstObj} />
-                        </Link>
+                        <HeroCard item={featured} />
                     </Col>
                 </Row>
             </div>
             <div className="container-cards">
                 <Row>
-                    {restObjs.map((talkObj, key) => (
+                    {talksArray.map((talkObj, key) => (
                         <Col xs="12" sm="6" md="4" key={talkObj._id}>
                             <Link to={`/play/${talkObj._id}`}>
                                 <Card item={talkObj} />
@@ -44,7 +41,10 @@ export default IndexPage
 
 export const pageQuery = graphql`
     query IndexQuery {
-        talks: allRtTalks(filter: { _id: { ne: null } }) {
+        talks: allRtTalks(
+            filter: { _id: { ne: null }, featured: { eq: 0 } }
+            sort: { fields: [event_date], order: DESC }
+        ) {
             nodes {
                 _id
                 added_date
@@ -52,6 +52,32 @@ export const pageQuery = graphql`
                 event_date
                 event_logo
                 event_name
+                event_location
+                id
+                summary
+                tags
+                thumbnail
+                title
+                url
+                views
+                speakers {
+                    name
+                    profile
+                }
+            }
+        }
+        featured: allRtTalks(
+            filter: { _id: { ne: null }, featured: { eq: 1 } }
+            sort: { fields: [event_date], order: DESC }
+        ) {
+            nodes {
+                _id
+                added_date
+                domain_name
+                event_date
+                event_logo
+                event_name
+                event_location
                 id
                 summary
                 tags
