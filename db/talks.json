@@ -1,6 +1,125 @@
 {
   "docs": [
     {
+      "_id": "5d1ba756e8c571007a412561",
+      "tags": [
+        "react",
+        "design",
+        "designing"
+      ],
+      "added_date": "2019-07-02T18:49:58.056Z",
+      "event_name": " GitNation React Conferences",
+      "event_date": "2019-04-10T00:19:18+05:30",
+      "domain_name": "https://www.youtube.com",
+      "summary": "Thanks to React's component-oriented architecture, the React community has been naturally gravitating towards design systems as a way of standardizing our respective design languages into reusable components. When done successfully, it suddenly becomes trivial to translate standard designs into code. In fact, we may even find that this translation step starts to feel somewhat redundant. In a world of components, how should our design processes change? How should our tooling change? How should we, as React developers, better enable this change? In this talk, we'll look at the current state of design and development, and where we could go—if we're willing to push for it.",
+      "title": "Designing with React - Mark Dalgleish",
+      "thumbnail": "https://i.ytimg.com/vi/orPcyJMJh7Y/maxresdefault.jpg",
+      "speakers": [
+        {
+          "name": "Mark Dalgleish",
+          "profile": "https://twitter.com/markdalgleish"
+        }
+      ],
+      "url": "https://www.youtube.com/watch?v=orPcyJMJh7Y",
+      "views": 0,
+      "event_logo": "https://res.cloudinary.com/mohddanish/image/upload/v1562092520/reactjstalk/GitNation.jpg"
+    },
+    {
+      "_id": "5d1ba6f2e8c571007a412560",
+      "tags": [
+        "react",
+        "sharing",
+        "code"
+      ],
+      "added_date": "2019-07-02T18:48:18.014Z",
+      "event_name": "GitNation React Conferences",
+      "event_date": "2019-04-10T00:16:24+05:30",
+      "domain_name": "https://www.youtube.com",
+      "summary": "Published on May 3, 2019Talk recording from React Amsterdam 2019 Conference https://react.amsterdam# Sharing Code Between React and React-Native: What Not to Share# React Native TrackReact and React-Native allow a learn once write anywhere paradigm.\nThis is great, because one tech team can build both your web app and native mobile experience.\nThere have been a couple of efforts to build a unifying technology to write an application once and have it work on both web and native.\nThere is value in only sharing your business and state logic; keeping your render code separate.\nIn this talk I will give real examples from my work with MADE.COM, migrating their web and mobile application to React and React-Native with code sharing as a primary objective.",
+      "title": "Sharing Code Between React and React-Native: What Not to Share - Ben Ellerby",
+      "thumbnail": "https://i.ytimg.com/vi/QO7SkFqRd7s/maxresdefault.jpg",
+      "speakers": [
+        {
+          "name": "Ben Ellerby",
+          "profile": "https://github.com/BenEllerby"
+        }
+      ],
+      "url": "https://www.youtube.com/watch?v=QO7SkFqRd7s",
+      "views": 0,
+      "event_logo": "https://res.cloudinary.com/mohddanish/image/upload/v1562092520/reactjstalk/GitNation.jpg"
+    },
+    {
+      "_id": "5d1ba646e8c571007a41255f",
+      "tags": [
+        "nextjs",
+        "react",
+        "serverside"
+      ],
+      "added_date": "2019-07-02T18:45:26.899Z",
+      "event_name": "GitNation React Conferences",
+      "event_date": "2019-04-10T00:14:54+05:30",
+      "domain_name": "https://www.youtube.com",
+      "summary": "Next.js is one of the most convenient and powerful ways of developing React apps on the web. With powerful features out of the box such as code-splitting, server-side rendering and powerful optimizations, this talk discusses the exciting next steps for Next.js.",
+      "title": "Next for Next.js - Tim Neutkens",
+      "thumbnail": "https://i.ytimg.com/vi/j1JsLmfdrgk/maxresdefault.jpg",
+      "speakers": [
+        {
+          "name": "Tim Neutkens",
+          "profile": "https://twitter.com/timneutkens"
+        }
+      ],
+      "url": "https://www.youtube.com/watch?v=j1JsLmfdrgk",
+      "views": 0,
+      "event_logo": "https://res.cloudinary.com/mohddanish/image/upload/v1562092520/reactjstalk/GitNation.jpg"
+    },
+    {
+      "_id": "5d1ba5d8e8c571007a41255e",
+      "tags": [
+        "react",
+        "components",
+        "render"
+      ],
+      "added_date": "2019-07-02T18:43:35.701Z",
+      "event_name": " GitNation React Conferences",
+      "event_date": "2019-04-10T00:12:35+05:30",
+      "domain_name": "https://www.youtube.com",
+      "summary": "React on its own has a very small API surface. Most of the magic happens in user-land. But, there's a lot out there: Higher order components, Render props, Compound components? Provider methods? Learn which component pattern will make your codebase better in which use case.",
+      "title": "Refactoring React - Siddharth Kshetrapal",
+      "thumbnail": "https://i.ytimg.com/vi/2Dw8gA60d_k/maxresdefault.jpg",
+      "speakers": [
+        {
+          "name": "Siddharth Kshetrapal",
+          "profile": "https://twitter.com/siddharthkp"
+        }
+      ],
+      "url": "https://www.youtube.com/watch?v=2Dw8gA60d_k",
+      "views": 0,
+      "event_logo": "https://res.cloudinary.com/mohddanish/image/upload/v1562092520/reactjstalk/GitNation.jpg"
+    },
+    {
+      "_id": "5d1ba4efe8c571007a41255d",
+      "tags": [
+        "react",
+        "trackreact"
+      ],
+      "added_date": "2019-07-02T18:39:37.835Z",
+      "event_name": "GitNation React Conferences",
+      "event_date": "2019-04-10T00:08:43+05:30",
+      "domain_name": "https://www.youtube.com",
+      "summary": "TrackReact is a brilliant JavaScript library for building simple and complex user interfaces.\nIn our eagerness to apply to React to our most complex of problems and ship solutions today, we can get lost in the 🌲🌲🌲 forest of abstractions 🌲🌲🌲.\nTo strip away all abstraction until what we're left with is the bare bones.\nThe better you understand abstraction, the more effective you will be at using it.\nIn this talk, we'll get more effective at using React Hooks, React Suspense, and JSX.",
+      "title": "Requisite React - Kent C. Dodds",
+      "thumbnail": "https://i.ytimg.com/vi/tO8qHlr6Wqg/maxresdefault.jpg",
+      "speakers": [
+        {
+          "name": "Kent C. Dodds",
+          "profile": "https://twitter.com/kentcdodds"
+        }
+      ],
+      "url": "https://www.youtube.com/watch?v=tO8qHlr6Wqg",
+      "views": 0,
+      "event_logo": "https://res.cloudinary.com/mohddanish/image/upload/v1562092520/reactjstalk/GitNation.jpg"
+    },
+    {
       "_id": "5d1a0c3786bf9000764784b4",
       "tags": [
         "react",
@@ -214,5 +333,5 @@
       "event_logo": "https://res.cloudinary.com/mohddanish/image/upload/v1561985880/reactjstalk/1213.jpg"
     }
   ],
-  "count": 8
+  "count": 13
 }
