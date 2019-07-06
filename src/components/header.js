@@ -1,7 +1,7 @@
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
-import { Navbar, Nav } from 'react-bootstrap'
+import { Navbar, Nav, InputGroup, FormControl } from 'react-bootstrap'
 
 import './style/header.scss'
 
@@ -27,11 +27,13 @@ const Header = ({ siteTitle }) => (
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto"></Nav>
-                <Nav>
-                    <Nav.Link href="#deets">More deets</Nav.Link>
-                    <Nav.Link eventKey={2} href="#memes">
-                        Dank memes
-                    </Nav.Link>
+                <Nav className="search-box">
+                    {/* <Nav.Link href="#deets">More deets</Nav.Link> */}
+                    <FormControl
+                        placeholder="Search React Talks"
+                        aria-label="Search React Talks"
+                        aria-describedby="basic-addon1"
+                    />
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

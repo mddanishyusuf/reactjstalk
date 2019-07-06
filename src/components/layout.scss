@@ -3,18 +3,22 @@ body {
     background-color: #222222 !important;
     color: #fff !important;
     overflow-x: hidden;
+    max-width: 1280px;
+    margin: 0 auto !important;
 }
 
 .container-cards {
-    padding: 80px;
+    padding: 20px 0px;
 
     a {
         text-decoration: none !important;
         color: #fff;
+
         &:hover {
             color: #fff;
         }
     }
+
     @media screen and (max-width: 700px) {
         padding: 0px;
     }
@@ -25,9 +29,12 @@ body {
 }
 
 .hero-section {
+    margin-top: 20px;
+
     a {
         text-decoration: none !important;
         color: #fff;
+
         &:hover {
             color: #fff;
         }

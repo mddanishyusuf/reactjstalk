@@ -21,6 +21,11 @@ function PlayThisTalkPage({ data }) {
                         type="text/html"
                         src={videoSrc}
                         frameBorder="0"
+                        allowFullScreen="allowfullscreen"
+                        mozallowfullscreen="mozallowfullscreen"
+                        msallowfullscreen="msallowfullscreen"
+                        oallowfullscreen="oallowfullscreen"
+                        webkitallowfullscreen="webkitallowfullscreen"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     />
                 </div>

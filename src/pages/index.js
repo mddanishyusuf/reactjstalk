@@ -42,7 +42,7 @@ export default IndexPage
 export const pageQuery = graphql`
     query IndexQuery {
         talks: allRtTalks(
-            filter: { _id: { ne: null }, featured: { eq: 0 } }
+            filter: { _id: { ne: null }, featured: { ne: 1 } }
             sort: { fields: [event_date], order: DESC }
         ) {
             nodes {
